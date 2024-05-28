@@ -24,7 +24,7 @@ public class CalculatorTest {
     }
 
     @Test
-    void testDiv(){
+    void testDiv() throws InvalidNumberException{
         float newNum = Calculator.divide(6, 2);
         assertEquals(3, newNum);
     }
